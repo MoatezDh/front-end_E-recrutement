@@ -1,0 +1,61 @@
+.DivResults{
+   display:flex;
+  
+}
+
+.ResultQuestions{
+   
+        width: 60%;
+        margin: auto;
+        background-color: #FA9F42;
+        height: 30px;
+        margin-bottom: 10px;
+        justify-content: center;
+        display: flex;
+        border-radius: 17px;
+        border: 1px solid azure;
+        p{
+            font-family: Georgia, serif;
+            margin-top: 3px;
+             margin-left: 4px;
+              color: azure
+        }
+      
+}
+.ResultQuestion{
+    width: 50%;
+                
+                  display: inline-block;
+                  text-align: center;
+}
+
+.DivResult{
+    border-radius:15px 20px 0px 20px;
+    background-color:#607cfa ;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+
+.ResultPara{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 9px;
+    
+    color: azure;
+    font-weight: bold;
+}
+.ResultPar{
+    font-family: 'Times New Roman', Times, serif;
+    //font-size:medium;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+
+
+

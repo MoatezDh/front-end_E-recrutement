@@ -1,0 +1,82 @@
+$border-radius:10px;
+$border:2px solid rgb(248, 246, 246);
+$box-shadow:10px 5px 30px rgb(102, 101, 101);
+$ubuntu-font:  'Ubuntu', 'Arial', 'Helvetica';
+$mediumslateblue:#6495ED;
+$MediumPurple:#886ce8;
+$blue: #002fff;
+$font-size: 14px;
+$input-border-color: #919191;
+
+
+
+.btn{
+    max-width: 100%;
+    display: flex;
+      margin-top:120px;
+      align-items: center;
+      justify-content: center;
+      
+   }
+  #btn1,#btn2,#btn3{
+    padding: 10px;
+    border-radius: $border-radius;
+   
+   }
+   #bouton1{
+     border-radius:120px 5px 5px 5px;
+     border: $border;
+   }
+   #bouton2{
+     border-radius:5px 120px 5px 5px;
+     border: $border;
+   }
+   .bouton{
+    height:15em;
+    width: 26em;
+    box-shadow: $box-shadow;
+   }
+  
+  #text,h1{
+    font-family:  $ubuntu-font;
+    font-size: x-large;
+    color:$mediumslateblue ;
+    text-align: center;
+    
+  }
+  .icon{
+    font-size: 40px;
+     color: $MediumPurple; 
+  }
+
+  @media screen  and (max-width:1130px) {
+  
+    .bouton{
+      height:15em;
+      width: 22em;
+      box-shadow: $box-shadow;
+     }
+     #text{
+      font-family:  $ubuntu-font;
+      font-size: 20px;
+      color:$mediumslateblue ;
+      text-align: center;
+      
+    }
+    #btn1,#btn2,#btn3{
+
+     padding-left: 40px;
+     padding-top: 40px;
+     }
+   
+  
+  }
+  @media screen  and (max-width:985px) {
+    #bouton1,#bouton2 {
+      border-radius: $border-radius;
+    }}
+
+    @media screen  and (max-width:573px) and (min-width:410px){
+     .btn  {
+       margin-left: 50px;
+      }}

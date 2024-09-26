@@ -1,0 +1,23 @@
+.Suivi-Test{
+    width: 97%;
+      margin: auto;
+      box-shadow: $box-shadow-Form;
+      justify-content: center;
+  } 
+  .Suivi_Stat{
+    box-shadow: $box-shadow-Form;
+  }
+  .Suivi_test,.Consulter_test,.Candidat_Button,.Company_Button {
+    
+    border: 1px dashed #2096F3;
+    
+    }
+  .Suivi_test:hover,.Consulter_test:hover {
+    background-color: #2096F3;
+    span{
+      font-size: 15px;
+    }
+    span{
+      color:aliceblue;
+    }
+    }
